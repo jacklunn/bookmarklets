@@ -21,6 +21,10 @@
     initMyBookmarklet();
   }
 
+  function handleText(textNode, dict) {
+    window.alert("handleText");
+  }
+
   function initMyBookmarklet() {
     (window.myBookmarklet = function() {
       window.alert(dict['obama']);
