@@ -26,6 +26,7 @@
     var text = textNode.nodeValue;
     var offset, newNode;
     for(var entry in dict){
+      console.log(entry);
     }
   }
 
