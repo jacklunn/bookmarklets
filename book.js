@@ -23,11 +23,15 @@
 
   function handleText(textNode, dict) {
     window.alert(dict['obama']);
+    var text = textNode.nodeValue;
+    var offset, newNode;
+    for(var entry in dict){
+    }
   }
 
   function initMyBookmarklet() {
     (window.myBookmarklet = function() {
-      handleText("handleText", dict);
+      handleText($('body')[0], dict);
     })();
   }
 
