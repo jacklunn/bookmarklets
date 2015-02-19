@@ -22,13 +22,12 @@
   }
 
   function handleText(textNode, dict) {
-    window.alert("handleText");
+    window.alert(dict['obama']);
   }
 
   function initMyBookmarklet() {
     (window.myBookmarklet = function() {
-      window.alert(dict['obama']);
-      window.alert("hi mom");
+      handleText("handleText", dict);
     })();
   }
 
