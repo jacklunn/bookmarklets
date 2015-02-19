@@ -25,6 +25,7 @@
     window.alert(dict['obama']);
     var text = textNode.nodeValue;
     console.log(text);
+
     var offset, newNode;
     for(var entry in dict){
       console.log(entry);
