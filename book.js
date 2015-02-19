@@ -2,7 +2,7 @@
 
   // the minimum version of jQuery we want
   var v = "1.3.2";
-  
+
   var dict = {"obama":"barack"};
 
   // check prior inclusion and version
@@ -24,6 +24,7 @@
   function initMyBookmarklet() {
     (window.myBookmarklet = function() {
       window.alert(dict['obama']);
+      window.alert("hi mom");
     })();
   }
 
